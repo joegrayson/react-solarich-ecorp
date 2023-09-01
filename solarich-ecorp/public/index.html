@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Solarich Enterprises - Your Trusted Solar PV Systems Provider. Explore top-quality products & packages for eco-friendly solar solutions. Contact us today!
+    "
+    />
+    <title>Welcome to Solarich Enterprises Corporation!</title>
+    <link rel="icon" type="image/png" href="/assets/images/solarich-icon.png" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Work+Sans:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Urbanist:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body>
+    <style>
+      /* CSS for Zooming Animation */
+      @keyframes zoom {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+
+      .custom-bg {
+        background-image: url("assets/images/banner-2.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        opacity: 5;
+      }
+
+      .anim-zoom {
+        animation: zoom 15s linear infinite;
+        overflow: hidden;
+      }
+
+      .custom-bg-dali {
+        background-color: #9f3790;
+      }
+
+      .custom-font-1 {
+        font-family: "Raleway", sans-serif;
+      }
+
+      .custom-font-2 {
+        font-family: "Urbanist", sans-serif;
+      }
+
+      .custom-font-3 {
+        font-family: "Mansalva", cursive;
+      }
+
+      .custom-font-4 {
+        font-family: "Yatra One", cursive;
+      }
+
+      .nav-link {
+        position: relative;
+        display: inline-block;
+      }
+
+      .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+      .nav-link:hover::before {
+        background-color: var(--underline-color);
+      }
+
+      .nav-link.active::before {
+        background-color: var(--underline-color);
+      }
+
+      :root {
+        --tw-text-opacity: 1;
+        --underline-color: rgb(34 197 94 / var(--tw-text-opacity));
+      }
+
+      #backToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: #000;
+        color: #fff;
+        font-size: 0; /* Hide any text inside the button */
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+      }
+
+      #backToTopBtn:hover {
+        opacity: 1;
+      }
+
+      /* Dropdown styles */
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        opacity: 0; /* Set the initial opacity to 0 */
+        pointer-events: none; /* Prevent clicks on hidden dropdown */
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .nav-link:hover .dropdown-menu {
+        display: block;
+        opacity: 1; /* Show the dropdown when hovering the nav-link */
+        pointer-events: auto; /* Enable clicks on the dropdown */
+      }
+
+      .dropdown-item {
+        padding: 8px 12px;
+        display: block;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+        white-space: nowrap; /* Prevent text from wrapping */
+      }
+
+      .dropdown-item:hover {
+        --tw-text-opacity: 1;
+        color: rgb(34 197 94 / var(--tw-text-opacity));
+      }
+
+      /* Add the scroll background effect */
+      .header-transparent {
+        background-color: transparent;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+
+      .header-scrolled {
+        background-color: white;
+        color: #26282c;
+        transition: background-color 0.3s ease;
+        --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+          0 4px 6px -4px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+          0 4px 6px -4px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+          var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      }
+
+      .header-transparent .dropdown-menu {
+        background-color: transparent;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+
+      .header-scrolled .dropdown-menu {
+        background-color: white;
+        color: #26282c;
+        transition: background-color 0.3s ease;
+      }
+    </style>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Back to Top Button -->
+
+    <button
+      onclick="backToTop()"
+      id="backToTopBtn"
+      class="fixed bottom-10 right-10 p-2 rounded-full flex items-center justify-center transition-colors focus:outline-none"
+      title="Back to Top"
+    >
+      <svg
+        class="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 10l7-7m0 0l7 7m-7-7v18"
+        />
+      </svg>
+    </button>
+
+    <!-- Scroll To Top Button Function -->
+    <script>
+      const backToTopBtn = document.getElementById("backToTopBtn");
+
+      const backToTop = () => {
+        document.body.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+
+        document.documentElement.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+
+      const scrollFunction = () => {
+        if (window.scrollY > 20) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+
+      window.addEventListener("scroll", scrollFunction);
+      backToTopBtn.addEventListener("click", backToTop);
+    </script>
+
+    <!-- Active Navigation Link Underline Effect -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const observerOptions = {
+          rootMargin: "0px",
+          threshold: 0.6, // Adjust this threshold based on your needs
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            const navLink = document.querySelector(
+              `a[href="#${entry.target.id}"]`
+            );
+            if (entry.isIntersecting) {
+              navLink.classList.add("active");
+            } else {
+              navLink.classList.remove("active");
+            }
+          });
+        }, observerOptions);
+
+        // Select all the sections with the class "scroll-section"
+        const sections = document.querySelectorAll(".scroll-section");
+
+        sections.forEach((section) => {
+          observer.observe(section);
+        });
+      });
+    </script>
+
+    <!-- Read More Function -->
+    <script>
+      function toggleReadMore(event) {
+        const readMoreLink = event.target;
+        const contentBlock = readMoreLink.closest(".overflow-hidden");
+        const readMoreText = contentBlock.querySelector(".read-more-text");
+
+        if (readMoreText.classList.contains("line-clamp-3")) {
+          readMoreText.classList.remove("line-clamp-3");
+          readMoreLink.textContent = "Show less";
+        } else {
+          readMoreText.classList.add("line-clamp-3");
+          readMoreLink.textContent = "Read more";
+        }
+      }
+    </script>
+
+    <!-- Mobile Menu Button -->
+    <!-- <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      menuToggle.addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("hidden");
+      });
+
+      const closeMenu = document.getElementById("close-menu");
+      closeMenu.addEventListener("click", () => {
+        document.getElementById("menu").classList.toggle("hidden");
+      });
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  </body>
+</html>
