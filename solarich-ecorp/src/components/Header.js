@@ -1,8 +1,10 @@
 import React, { Fragment, useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 // import { Route, Link } from "react-router-dom";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
@@ -19,8 +21,12 @@ const Header = () => {
     };
   }, []);
 
-  const headerClass = scrolled ? "header-scrolled" : "header-transparent";
-  const dropdownMenuClass = scrolled ? "header-scrolled" : "header-transparent";
+  const isHomepage = location.pathname === "/";
+
+  const headerClass =
+    isHomepage && scrolled ? "header-scrolled" : "header-transparent";
+  const dropdownMenuClass =
+    isHomepage && scrolled ? "header-scrolled" : "header-transparent";
 
   return (
     <Fragment>
