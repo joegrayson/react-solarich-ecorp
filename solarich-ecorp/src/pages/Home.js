@@ -6,6 +6,7 @@ import ResidentialService from "../sections/ResidentialService";
 import AboutSection from "../sections/AboutSection";
 import ResidentialProjects from "../sections/ResidentialProjects";
 import CommercialService from "../sections/CommercialService";
+import CommercialProjects from "../sections/CommercialProjects";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ResidentialService />
       <ResidentialProjects />
       <CommercialService />
+      <CommercialProjects />
       <AboutSection />
     </Fragment>
   );
