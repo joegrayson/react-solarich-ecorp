@@ -86,7 +86,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#home"
+                    href="/"
                   >
                     Home
                   </a>
@@ -95,7 +95,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#residential"
+                    href="/#residential"
                   >
                     Residential
                   </a>
@@ -169,7 +169,6 @@ const Header = () => {
               </ul>
             </div>
 
-            {/* Mobile menu, show/hide based on menu open state */}
             <div className="hidden" role="dialog" aria-modal="true" id="menu">
               <div className="fixed inset-0 z-10">
                 <div className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-50 px-6 py-10 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
@@ -263,7 +262,6 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            {/* End of Mobile menu, show/hide based on menu open state */}
           </div>
         </div>
       </div>
