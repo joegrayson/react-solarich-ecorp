@@ -22,16 +22,18 @@ const Header = () => {
   }, []);
 
   const isHomepage = location.pathname === "/";
-
-  const headerClass =
-    isHomepage && scrolled ? "header-scrolled" : "header-transparent";
-  const dropdownMenuClass =
-    isHomepage && scrolled ? "header-scrolled" : "header-transparent";
+  const dropdownMenuClass = isHomepage && scrolled ? "header-scrolled" : "";
 
   return (
     <Fragment>
       <div
-        className={`px-6 bg-gray-50 fixed top-0 left-0 right-0 z-10 transition-all duration-300 ${headerClass}`}
+        className={`px-6 bg-gray-50 fixed top-0 left-0 right-0 z-10 transition-all duration-300 ${
+          isHomepage
+            ? scrolled
+              ? "header-scrolled"
+              : "header-transparent"
+            : dropdownMenuClass
+        }`}
         id="main-header"
       >
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-6">
