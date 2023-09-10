@@ -86,7 +86,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/"
+                    href="/#home"
                   >
                     Home
                   </a>
