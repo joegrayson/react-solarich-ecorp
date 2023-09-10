@@ -81,7 +81,7 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onclick="toggleReadMore(event)"
+                  onClick="toggleReadMore(event)"
                 >
                   Read more
                 </span>
@@ -136,7 +136,7 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onclick="toggleReadMore(event)"
+                  onClick="toggleReadMore(event)"
                 >
                   Read more
                 </span>
@@ -193,7 +193,7 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onclick="toggleReadMore(event)"
+                  onClick="toggleReadMore(event)"
                 >
                   Read more
                 </span>
