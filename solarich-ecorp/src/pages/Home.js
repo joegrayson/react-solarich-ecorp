@@ -7,6 +7,7 @@ import AboutSection from "../sections/AboutSection";
 import ResidentialProjects from "../sections/ResidentialProjects";
 import CommercialService from "../sections/CommercialService";
 import CommercialProjects from "../sections/CommercialProjects";
+import LearningGuide from "../sections/LearningGuide";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ResidentialProjects />
       <CommercialService />
       <CommercialProjects />
+      <LearningGuide />
       <AboutSection />
     </Fragment>
   );

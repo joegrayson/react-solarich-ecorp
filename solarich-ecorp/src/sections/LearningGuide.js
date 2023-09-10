@@ -4,23 +4,23 @@ const LearningGuide = () => {
   return (
     <Fragment>
       <section>
-        <div class="container py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div class="flex flex-col lg:flex-row">
-            <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-              <h2 class="mb-5 font-sans text-3xl font-bold tracking-normal text-green-900 sm:text-4xl sm:leading-none custom-font-2">
+        <div className="container py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="flex flex-col lg:flex-row">
+            <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
+              <h2 className="mb-5 font-sans text-3xl font-bold tracking-normal text-green-900 sm:text-4xl sm:leading-none custom-font-2">
                 Are you new to solar energy?
-                <br class="hidden md:block" />
+                <br className="hidden md:block" />
                 No worries, we've got you covered!
               </h2>
               <div>
                 <a
                   href="/pages/learning-guide.html"
                   aria-label=""
-                  class="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 custom-font-1 tracking-wide"
+                  className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 custom-font-1 tracking-wide"
                 >
                   Learn more
                   <svg
-                    class="inline-block w-3 mt-0.5 ml-2"
+                    className="inline-block w-3 mt-0.5 ml-2"
                     fill="currentColor"
                     viewBox="0 0 12 12"
                   >
@@ -29,14 +29,14 @@ const LearningGuide = () => {
                 </a>
               </div>
             </div>
-            <div class="lg:w-1/2 -mb-4">
-              <p class="text-lg md:text-xl text-gray-700 custom-font-2 font-semibold tracking-wide">
+            <div className="lg:w-1/2 -mb-4">
+              <p className="text-lg md:text-xl text-gray-700 custom-font-2 font-semibold tracking-wide">
                 At Solarich Enterprises Corp, we're dedicated to supporting both
                 beginners and enthusiasts as they embark on their exciting path
                 towards clean energy. Our comprehensive
                 <a
                   href="/pages/learning-guide.html"
-                  class="underline underline-offset-4 hover:text-green-500 transition-colors duration-200"
+                  className="underline underline-offset-4 hover:text-green-500 transition-colors duration-200"
                 >
                   Learning Guide
                 </a>
