@@ -1,5 +1,9 @@
 import React, { Fragment } from "react";
 
+import { Carousel, initTE } from "tw-elements";
+
+initTE({ Carousel });
+
 const CommercialService = () => {
   return (
     <Fragment>
@@ -7,7 +11,7 @@ const CommercialService = () => {
         className="bg-gray-50 bg-opacity-85 scroll-section"
         id="commercial"
       >
-        <div className="container pt-32 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-36">
+        <div className="container px-4 pt-32 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-36">
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
               <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-green-600">
@@ -62,9 +66,9 @@ const CommercialService = () => {
               {/* Carousel */}
               <div
                 id="carouselExampleSlidesOnly"
-                className="relative"
+                class="relative"
                 data-te-carousel-init
-                data-te-carousel-slide
+                data-te-ride="carousel"
               >
                 {/* Carousel items */}
                 <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
