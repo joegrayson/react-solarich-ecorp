@@ -33,13 +33,13 @@ const LearningGuide = () => {
               <p className="text-lg md:text-xl text-gray-700 custom-font-2 font-semibold tracking-wide">
                 At Solarich Enterprises Corp, we're dedicated to supporting both
                 beginners and enthusiasts as they embark on their exciting path
-                towards clean energy. Our comprehensive
+                towards clean energy. Our comprehensive{" "}
                 <a
                   href="/pages/learning-guide.html"
                   className="underline underline-offset-4 hover:text-green-500 transition-colors duration-200"
                 >
                   Learning Guide
-                </a>
+                </a>{" "}
                 on Solar PV Systems is designed to provide you with all the
                 essential knowledge and insights you need to understand the
                 world of solar energy. Whether you're curious about grid-tied,
