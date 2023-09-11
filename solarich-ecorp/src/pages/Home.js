@@ -9,6 +9,7 @@ import CommercialService from "../sections/CommercialService";
 import CommercialProjects from "../sections/CommercialProjects";
 import LearningGuide from "../sections/LearningGuide";
 import TrainingSection from "../sections/TrainingSection";
+import BrandAssociations from "../sections/BrandAssociations";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <CommercialProjects />
       <LearningGuide />
       <TrainingSection />
+      <BrandAssociations />
       <AboutSection />
     </Fragment>
   );
