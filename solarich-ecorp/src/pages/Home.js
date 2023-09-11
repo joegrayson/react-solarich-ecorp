@@ -24,9 +24,9 @@ const Home = () => {
       <LearningGuide />
       <TrainingSection />
       <BrandAssociations />
+      <AboutSection />
       <ContactSection />
       <LocationSection />
-      <AboutSection />
     </Fragment>
   );
 };
