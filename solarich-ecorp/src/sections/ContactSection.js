@@ -33,8 +33,8 @@ const ContactSection = () => {
                       d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                     />
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
@@ -296,7 +296,7 @@ const ContactSection = () => {
                     <form id="frmGetQuote">
                       <div className="mb-1 sm:mb-2">
                         <label
-                          for="name"
+                          htmlFor="name"
                           className="inline-block mb-1 font-medium text-md sm:text-lg text-gray-600 tracking-wide"
                         >
                           Contact Information
@@ -332,7 +332,7 @@ const ContactSection = () => {
                       </div>
                       <div className="mb-1 sm:mb-2">
                         <label
-                          for="subject"
+                          htmlFor="subject"
                           className="inline-block mb-1 font-medium text-md sm:text-lg text-gray-600 tracking-wide"
                         >
                           Subject
@@ -381,7 +381,7 @@ const ContactSection = () => {
                       </div>
                       <div className="mb-1 sm:mb-2">
                         <label
-                          for="message"
+                          htmlFor="message"
                           className="inline-block mb-1 font-medium text-md sm:text-lg text-gray-600 tracking-wide"
                         >
                           Message
