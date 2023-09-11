@@ -11,6 +11,7 @@ import LearningGuide from "../sections/LearningGuide";
 import TrainingSection from "../sections/TrainingSection";
 import BrandAssociations from "../sections/BrandAssociations";
 import ContactSection from "../sections/ContactSection";
+import LocationSection from "../sections/LocationSection";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <TrainingSection />
       <BrandAssociations />
       <ContactSection />
+      <LocationSection />
       <AboutSection />
     </Fragment>
   );
