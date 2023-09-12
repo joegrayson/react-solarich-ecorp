@@ -1,7 +1,14 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 
 const CommercialProjects = () => {
+  const [readMoreStates, setReadMoreStates] = useState([false, false, false]);
+
+  const toggleReadMore = (index) => {
+    const newReadMoreStates = [...readMoreStates];
+    newReadMoreStates[index] = !newReadMoreStates[index];
+    setReadMoreStates(newReadMoreStates);
+  };
   return (
     <Fragment>
       <section
@@ -65,7 +72,11 @@ const CommercialProjects = () => {
                 >
                   DALI Wales, Parañaque
                 </Link>
-                <p className="mb-2 text-gray-700 line-clamp-3 custom-font-2 tracking-wide font-medium read-more-text">
+                <p
+                  className={`mb-2 text-gray-700 custom-font-2 tracking-wide font-medium ${
+                    readMoreStates[0] ? "" : "line-clamp-3"
+                  }`}
+                >
                   Solarich ECorp is proud to provide the best solar energy
                   solutions, and we are delighted to announce the completion of
                   another successful commercial PV installation. This time, we
@@ -81,9 +92,9 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onClick="toggleReadMore(event)"
+                  onClick={() => toggleReadMore(0)}
                 >
-                  Read more
+                  {readMoreStates[0] ? "Show less" : "Read more"}
                 </span>
               </div>
             </div>
@@ -120,7 +131,11 @@ const CommercialProjects = () => {
                 >
                   DALI JFelipe Cavite City
                 </Link>
-                <p className="mb-2 text-gray-700 line-clamp-3 custom-font-2 tracking-wide font-medium read-more-text">
+                <p
+                  className={`mb-2 text-gray-700 custom-font-2 tracking-wide font-medium ${
+                    readMoreStates[1] ? "" : "line-clamp-3"
+                  }`}
+                >
                   We warmly invite you to witness the remarkable newly installed
                   solar system at DALI Everyday Grocery in JFelipe Cavite City.
                   This impressive installation features a 15kW On-Grid System,
@@ -136,9 +151,9 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onClick="toggleReadMore(event)"
+                  onClick={() => toggleReadMore(1)}
                 >
-                  Read more
+                  {readMoreStates[1] ? "Show less" : "Read more"}
                 </span>
               </div>
             </div>
@@ -175,7 +190,11 @@ const CommercialProjects = () => {
                 >
                   DALI Cabezas, Trece, Cavite
                 </Link>
-                <p className="mb-2 text-gray-700 line-clamp-3 custom-font-2 tracking-wide font-medium read-more-text">
+                <p
+                  className={`mb-2 text-gray-700 custom-font-2 tracking-wide font-medium ${
+                    readMoreStates[2] ? "" : "line-clamp-3"
+                  }`}
+                >
                   Introducing our preventive maintenance service for solar
                   energy systems in DALI Cabezas, Trece, Cavite, brought to you
                   by Solarich Enterprises Corp. We are committed to ensuring the
@@ -193,9 +212,9 @@ const CommercialProjects = () => {
                 <span
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 cursor-pointer read-more-link"
-                  onClick="toggleReadMore(event)"
+                  onClick={() => toggleReadMore(2)}
                 >
-                  Read more
+                  {readMoreStates[2] ? "Show less" : "Read more"}
                 </span>
               </div>
             </div>
