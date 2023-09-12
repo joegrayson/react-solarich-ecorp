@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "../App.css";
 
 const Banner = () => {
   return (
@@ -31,7 +32,7 @@ const Banner = () => {
                         </div>
                       </div>
                       <div className="max-w-xl mb-6 md:mx-auto sm:text-center lg:max-w-2xl md:mb-8">
-                        <h2 className="max-w-2xl mb-2 font-sans text-3xl font-bold leading-none tracking-wide drop-shadow-md text-gray-200 sm:text-6xl md:mx-auto custom-font-2">
+                        <h2 className="max-w-2xl mb-2 font-sans text-3xl font-bold leading-none tracking-wide drop-shadow-md text-gray-200 sm:text-6xl md:mx-auto custom-font-2 fade-in-up">
                           <span className="relative inline-block">
                             Sustainable
                             <span className="relative text-yellow-400">
@@ -67,7 +68,7 @@ const Banner = () => {
                             ></rect>
                           </svg>
                         </h2>
-                        <p className="text-base font-medium text-gray-100 md:text-2xl custom-font-2 tracking-wide">
+                        <p className="text-base font-medium text-gray-100 md:text-2xl custom-font-2 tracking-wide fade-in-up">
                           Allow us to help you empower your home and business
                           with our Solar PV Systems.
                         </p>
@@ -75,7 +76,7 @@ const Banner = () => {
                       <div>
                         <a
                           href="#getQuote"
-                          className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-widest text-white transition duration-200 rounded shadow-md bg-green-500 hover:bg-green-700 capitalize focus:shadow-outline focus:outline-none custom-font-2"
+                          className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-widest text-white transition duration-200 rounded shadow-md bg-green-500 hover:bg-green-700 capitalize focus:shadow-outline focus:outline-none custom-font-2 fade-in-up"
                         >
                           Get a quote
                         </a>
