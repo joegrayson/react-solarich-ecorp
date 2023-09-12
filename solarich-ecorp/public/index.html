@@ -278,23 +278,6 @@
       });
     </script>
 
-    <!-- Read More Function -->
-    <script>
-      function toggleReadMore(event) {
-        const readMoreLink = event.target;
-        const contentBlock = readMoreLink.closest(".overflow-hidden");
-        const readMoreText = contentBlock.querySelector(".read-more-text");
-
-        if (readMoreText.classList.contains("line-clamp-3")) {
-          readMoreText.classList.remove("line-clamp-3");
-          readMoreLink.textContent = "Show less";
-        } else {
-          readMoreText.classList.add("line-clamp-3");
-          readMoreLink.textContent = "Read more";
-        }
-      }
-    </script>
-
     <!-- Mobile Menu Button -->
     <script>
       const menuToggle = document.getElementById("menu-toggle");
