@@ -120,18 +120,15 @@ const Header = () => {
                 </li>
 
                 <li className="nav-link">
-                  <a
-                    className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/"
-                  >
+                  <span className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400">
                     Solar Solutions
-                  </a>
+                  </span>
                   <div
                     className={`dropdown-menu rounded-b-md ${dropdownMenuClass}`}
                   >
                     <a
                       className="dropdown-item px-1 py-1 text-md font-medium transition duration-300 tracking-wider custom-font-2 hover:text-green-400"
-                      href="/pages/learning-guide.html"
+                      href="/learning"
                     >
                       Learning Guide
                     </a>
