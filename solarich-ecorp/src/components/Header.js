@@ -104,7 +104,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#commercial"
+                    href="/#commercial"
                   >
                     Commercial
                   </a>
@@ -113,7 +113,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#solar-training"
+                    href="/#solar-training"
                   >
                     Solar PV Training
                   </a>
@@ -150,7 +150,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#about"
+                    href="/#about"
                   >
                     About
                   </a>
@@ -158,7 +158,7 @@ const Header = () => {
                 <li>
                   <a
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="#contact"
+                    href="/#contact"
                   >
                     Contact
                   </a>
