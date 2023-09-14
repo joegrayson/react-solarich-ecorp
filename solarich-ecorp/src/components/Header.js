@@ -134,7 +134,7 @@ const Header = () => {
                     </a>
                     <a
                       className="dropdown-item px-1 py-1 text-md font-medium transition duration-300 tracking-wider custom-font-2 hover:text-green-400"
-                      href="/pages/system-packages.html"
+                      href="/packages"
                     >
                       System Packages
                     </a>
