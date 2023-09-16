@@ -63,7 +63,7 @@ const TrainingSection = () => {
               id="carouselExampleControls"
               className="relative"
               data-te-carousel-init
-              data-te-ride="carousel"
+              data-te-carousel-slide
             >
               {/* Carousel items */}
               <div className="relative shadow-xl rounded-md w-full overflow-hidden after:clear-both after:block after:content-['']">
