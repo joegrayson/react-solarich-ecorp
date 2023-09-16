@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import BrandAssociations from "../sections/BrandAssociations";
+import BrandAssociations from "../components/BrandAssociations";
 
 const Products = () => {
   return (
