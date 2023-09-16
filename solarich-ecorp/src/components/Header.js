@@ -137,7 +137,7 @@ const Header = () => {
                     </Link>
                     <Link
                       className="dropdown-item px-1 py-1 text-md font-medium transition duration-300 tracking-wider custom-font-2 hover:text-green-400"
-                      to="/pages/products.html"
+                      to="/products"
                     >
                       Products
                     </Link>
