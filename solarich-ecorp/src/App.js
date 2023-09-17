@@ -12,6 +12,7 @@ import Loader from "./components/Loader";
 import Learning from "./pages/Learning";
 import Packages from "./pages/Packages";
 import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -46,6 +47,7 @@ function App() {
             <Route path="/learning" element={<Learning />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       )}

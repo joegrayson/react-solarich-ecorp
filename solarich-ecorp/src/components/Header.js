@@ -153,12 +153,12 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/#contact"
+                    to="/contact"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

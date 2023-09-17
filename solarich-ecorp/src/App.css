@@ -1,3 +1,11 @@
+body {
+  transition: scroll-behavior 1s ease-in-out;
+  -webkit-transition: scroll-behavior 1s ease-in-out;
+  -moz-transition: scroll-behavior 1s ease-in-out;
+  -ms-transition: scroll-behavior 1s ease-in-out;
+  -o-transition: scroll-behavior 1s ease-in-out;
+}
+
 /* Custom CSS for 360-degree rotation */
 .rotate-360 {
   transition: transform 2s ease; /* Adjust the duration here */
