@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const AboutSection = () => {
   return (
     <Fragment>
-      <section className="bg-gray-50 bg-opacity-85 scroll-section" id="about">
+      <section
+        className="bg-gray-50 bg-opacity-85 scroll-section border-b-4 border-green-400"
+        id="about"
+      >
         <div className="container px-4 pt-28 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32">
           <div className="max-w-xl mb-6 md:mx-auto text-center sm:text-center lg:max-w-2xl md:mb-8">
             <h2 className="custom-font-2 max-w-xl sm:max-w-2xl mb-4 font-sans text-2xl font-bold tracking-normal text-green-900 sm:text-5xl sm:leading-none custom-font-2">

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Map from "../components/Map";
+import ContactSection from "../sections/homepage/ContactSection";
 
 const Contact = () => {
   return (
@@ -134,6 +135,7 @@ const Contact = () => {
           <Map />
         </div>
       </section>
+      <ContactSection />
     </Fragment>
   );
 };

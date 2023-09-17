@@ -10,7 +10,6 @@ import CommercialProjects from "../sections/homepage/CommercialProjects";
 import LearningGuide from "../sections/homepage/LearningGuide";
 import TrainingSection from "../sections/homepage/TrainingSection";
 import BrandAssociations from "../components/BrandAssociations";
-import ContactSection from "../sections/homepage/ContactSection";
 import LocationSection from "../sections/homepage/LocationSection";
 
 const Home = () => {
@@ -25,7 +24,6 @@ const Home = () => {
       <TrainingSection />
       <BrandAssociations />
       <AboutSection />
-      <ContactSection />
       <LocationSection />
     </Fragment>
   );
