@@ -87,7 +87,7 @@ const OnGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-gray-800">
                     Introduction to Grid-Tied/On-Grid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
