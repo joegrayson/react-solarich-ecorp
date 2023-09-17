@@ -31,12 +31,16 @@ const Contact = () => {
                     height="24"
                   ></rect>
                 </svg>
-                <span className="relative">Contact Us</span>
+                <span className="relative">Get In Touch With Us!</span>
               </span>
             </h2>
           </div>
 
-          <Map />
+          <div className="max-w-screen-md text-center sm:text-center sm:mx-auto pb-10 sm:pb-20">
+            <p className="font-semibold text-gray-700 text-xl sm:px-4 custom-font-2">
+              Ask us everything and we would love to hear from you.
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3 sm:grid-cols-2 ">
             <div className="p-4 rounded-lg bg-blue-50 md:p-6 ">
@@ -127,6 +131,7 @@ const Contact = () => {
               <p className="mt-2 text-sm text-blue-500 ">+1 (555) 000-0000</p>
             </div>
           </div>
+          <Map />
         </div>
       </section>
     </Fragment>
