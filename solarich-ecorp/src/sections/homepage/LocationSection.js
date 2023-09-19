@@ -30,8 +30,8 @@ const LocationSection = () => {
                     height="24"
                   ></rect>
                 </svg>
-                <span className="relative">Feel</span>
-              </span>
+                <span className="relative">Feel </span>
+              </span>{" "}
               free to drop by anytime! We're here and eager to help whenever you
               need. Come visit us soon!
             </h2>
