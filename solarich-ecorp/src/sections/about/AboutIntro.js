@@ -4,7 +4,7 @@ const AboutIntro = () => {
   return (
     <Fragment>
       <section className="bg-gray-50 bg-opacity-85">
-        <div className="mt-10 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
+        <div className="mt-10 px-8 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
           <div className="max-w-xl mb-6 md:mx-auto text-center sm:text-center lg:max-w-2xl md:mb-8">
             <h2 className="custom-font-2 max-w-xl sm:max-w-2xl mb-4 font-sans text-2xl font-bold tracking-normal text-green-900 sm:text-5xl sm:leading-none custom-font-2">
               <span className="relative inline-block">
@@ -62,7 +62,7 @@ const AboutIntro = () => {
             <div>
               <img
                 src="/assets/images/solarich-logo-w-name.png"
-                className="object-cover object-top w-full h-80 mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
+                className="object-cover object-top w-full h-full flex items-center justify-center mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
                 alt=""
               />
             </div>
