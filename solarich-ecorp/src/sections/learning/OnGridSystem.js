@@ -87,7 +87,7 @@ const OnGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-gray-800">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Introduction to Grid-Tied/On-Grid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -123,7 +123,7 @@ const OnGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900 ">
                     How Grid-Tied Solar Systems Work
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -159,7 +159,7 @@ const OnGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Advantages of Grid-Tied Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
