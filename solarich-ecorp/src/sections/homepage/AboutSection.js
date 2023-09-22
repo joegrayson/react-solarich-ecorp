@@ -82,8 +82,8 @@ const AboutSection = () => {
             </div>
             <div className="px-4">
               <img
-                src="/assets/images/solarich-icon.png"
-                className="object-cover object-top w-full h-80 mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
+                src="/assets/images/solarich-logo-w-name.png"
+                className="object-cover object-top w-full h-full flex items-center justify-center mx-auto lg:h-auto xl:mr-24 md:max-w-sm"
                 alt="Solarich Logo"
               />
             </div>
