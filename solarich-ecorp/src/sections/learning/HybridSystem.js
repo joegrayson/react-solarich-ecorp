@@ -49,7 +49,7 @@ const HybridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Introduction to Hybrid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -87,7 +87,7 @@ const HybridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     How Hybrid Solar Systems Work
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -125,7 +125,7 @@ const HybridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Advantages of Hybrid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
