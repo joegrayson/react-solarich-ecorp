@@ -4,7 +4,7 @@ const Objectives = () => {
   return (
     <Fragment>
       <section className="bg-gray-50 bg-opacity-85 ">
-        <div className="container px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-6">
+        <div className="container px-8 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-6">
           <div className="grid max-w-screen-xl gap-8 sm:gap-x-20 lg:grid-cols-2 sm:mx-auto mb-12">
             <div className="grid grid-cols-2 gap-5">
               <img
