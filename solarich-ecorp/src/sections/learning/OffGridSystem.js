@@ -49,7 +49,7 @@ const OffGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Introduction to Off-Grid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -83,7 +83,7 @@ const OffGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     How Off-Grid Solar Systems Work
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
@@ -117,7 +117,7 @@ const OffGridSystem = () => {
                   <div className="w-px h-full bg-gray-300"></div>
                 </div>
                 <div className="pt-1 pb-8">
-                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide">
+                  <p className="mb-2 text-lg font-bold custom-font-2 tracking-wide text-green-900">
                     Advantages of Off-Grid Solar Systems
                   </p>
                   <p className="text-gray-800 custom-font-2 tracking-wide">
