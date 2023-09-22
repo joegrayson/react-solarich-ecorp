@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <Fragment>
       <section className="bg-gray-50">
-        <div className="container px-4 mt-10 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
+        <div className="container px-8 mt-10 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
           <div className="max-w-xl mb-6 md:mx-auto text-center sm:text-center lg:max-w-2xl md:mb-8">
             <h2 className="custom-font-2 max-w-xl sm:max-w-2xl mb-4 font-sans text-2xl font-bold tracking-normal text-green-900 sm:text-5xl sm:leading-none custom-font-2">
               <span className="relative inline-block">
@@ -60,7 +60,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   Jinko panel
                 </p>
               </div>
@@ -75,7 +75,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   sofar inverter
                 </p>
               </div>
@@ -90,7 +90,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   sunways inverter
                 </p>
               </div>
@@ -105,7 +105,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   deye inverter
                 </p>
               </div>
@@ -122,7 +122,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   meritsun battery
                 </p>
               </div>
@@ -137,7 +137,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   genixgreen battery
                 </p>
               </div>
@@ -152,7 +152,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   end clamp
                 </p>
               </div>
@@ -167,7 +167,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   mid clamp
                 </p>
               </div>
@@ -184,7 +184,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   l-foot
                 </p>
               </div>
@@ -199,7 +199,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   dc breaker
                 </p>
               </div>
@@ -214,7 +214,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   dc spd
                 </p>
               </div>
@@ -229,7 +229,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   ac breaker
                 </p>
               </div>
@@ -246,7 +246,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   ac spd
                 </p>
               </div>
@@ -261,7 +261,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   royu circuit breaker
                 </p>
               </div>
@@ -276,7 +276,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   mc4 connector
                 </p>
               </div>
@@ -291,7 +291,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   pv wire
                 </p>
               </div>
@@ -308,7 +308,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   cable tray
                 </p>
               </div>
@@ -323,7 +323,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   railing
                 </p>
               </div>
@@ -338,7 +338,7 @@ const Products = () => {
                 />
               </div>
               <div className="flex flex-col text-center">
-                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase">
+                <p className="text-lg font-bold custom-font-2 tracking-wide uppercase text-green-900">
                   railing connector
                 </p>
               </div>
