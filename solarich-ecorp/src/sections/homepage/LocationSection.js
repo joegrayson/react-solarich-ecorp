@@ -4,7 +4,7 @@ const LocationSection = () => {
   return (
     <Fragment>
       <section>
-        <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8 mt-8">
+        <div className="px-8 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8 mt-8">
           <div className="mb-5 lg:w-3/4 lg:mb-8 lg:mr-20">
             <h2 className="relative mb-4 font-sans text-3xl font-bold tracking-normal text-green-900 sm:text-4xl sm:leading-none custom-font-2">
               <span className="relative inline-block">
