@@ -4,13 +4,12 @@ const HybridSystem = () => {
   return (
     <Fragment>
       <section className="bg-gray-50 bg-opacity-85">
-        <div className="container px-4 py-28 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
+        <div className="container px-8 py-28 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-28">
           <div className="p-8 rounded-lg border-2 border-green-300 shadow-lg sm:p-16 py-12">
             <div className="flex flex-col lg:flex-row">
               <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
                 <h2 className="font-sans text-2xl font-bold tracking-normal text-green-900 sm:text-5xl sm:leading-none custom-font-2">
-                  Hybrid
-                  <br className="hidden sm:block" />
+                  Hybrid <br className="hidden sm:block" />
                   Solar Systems
                 </h2>
               </div>
