@@ -4,7 +4,7 @@ const ResidentialProjects = () => {
   return (
     <Fragment>
       <section className="bg-gray-100 scroll-section" id="residential">
-        <div className="container px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="container px-8 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-20">
             <h2 className="max-w-2xl mb-6 leading-none md:mx-auto font-sans text-3xl font-bold tracking-normal text-green-900 sm:text-5xl sm:leading-none custom-font-2">
               <span className="relative inline-block">
