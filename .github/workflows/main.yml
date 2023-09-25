@@ -1,24 +1,23 @@
-name: Build and Deploy React App via FTP
-
-on:
-  push:
-    branches: [main]
-
+on: push
+name: 🚀 Deploy website on push
 jobs:
-  build-and-deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
       - name: Run react build script
         run: npm install
           npm run build
         env:
           CI: false
 
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          ftp-server: ftp://ftp.solarich.com.ph
-          ftp-username: deploy@solarich.com.ph
-          ftp-password: ${{ secrets.FTP_PASSWORD_SOLARICH }}
+          server: ftp://ftp.solarich.com.ph
+          username: deploy@solarich.com.ph
+          password: ${{ secrets.FTP_PASSWORD_SOLARICH }}
           local-dir: build/
