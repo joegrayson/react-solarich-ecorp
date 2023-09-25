@@ -4,7 +4,7 @@ function Map() {
   return (
     <iframe
       title="Google Maps"
-      className="object-cover w-full h-64 mt-10 rounded-lg lg:h-96 mt-20 shadow-lg drop-shadow-lg"
+      className="object-cover w-full h-64 rounded-lg lg:h-96 mt-10 shadow-lg drop-shadow-lg"
       allowFullScreen
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
