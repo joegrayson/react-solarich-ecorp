@@ -16,7 +16,7 @@ jobs:
           CI: false
 
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
           ftp-server: ftp://ftp.solarich.com.ph
           ftp-username: deploy@solarich.com.ph
