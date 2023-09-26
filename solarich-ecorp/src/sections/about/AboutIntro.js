@@ -53,7 +53,7 @@ const AboutIntro = () => {
                   top-quality solar installation services and retail solutions
                   to residential, commercial, and industrial clients. The
                   company was founded in April 2022 (formerly known as Solaraze
-                  Enterprises Corp) and is proudly owned by Filipino
+                  Enterprises Corporation) and is proudly owned by Filipino
                   shareholders who bring a wealth of experience and knowledge to
                   the table.
                 </p>
