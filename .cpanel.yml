@@ -1,20 +1,19 @@
-name: Deploy Solarich React Website to CPanel
-on: 
-  push:
-    branches:
-      - main
-jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2.1.0
-    - name: Run react build script
-      run: npm install
-           npm run build      
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@4.3.4
-      with: 
-        ftp-server: ${{ secrets.FTP_SERVER_SOLARICH }}
-        ftp-username: ${{ secrets.FTP_USERNAME_SOLARICH }}
-        ftp-password: ${{ secrets.FTP_PASSWORD_SOLARICH }}
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xlppfnfn/public_html
+
+    # Navigate to the repository directory
+    - cd /home/xlppfnfn/repositories/react-solarich-ecorp
+
+    # Update the Git repository (optional, if needed)
+    - git pull
+
+    # Install project dependencies (if needed)
+    - npm install
+
+    # Build the project (e.g., using npm run build)
+    - npm run build
+
+    # Deploy the built files to the specified path
+    - /bin/cp -R build/* $DEPLOYPATH
