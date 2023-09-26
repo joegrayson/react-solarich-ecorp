@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/xlppfnfn/public_html
-    - /bin/cp -R /home/xlppfnfn/repositories/react-solarich-ecorp/solarich-ecorp/build/* $DEPLOYPATH
