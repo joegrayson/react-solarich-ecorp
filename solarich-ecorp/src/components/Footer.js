@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -121,7 +122,7 @@ const Footer = () => {
                     <ul className="mt-6 space-y-4 text-sm">
                       <li>
                         <a
-                          href="#residential"
+                          href="/#residential"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Residential Services
@@ -130,7 +131,7 @@ const Footer = () => {
 
                       <li>
                         <a
-                          href="#commercial"
+                          href="/#commercial"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Commercial Services
@@ -139,7 +140,7 @@ const Footer = () => {
 
                       <li>
                         <a
-                          href="#training"
+                          href="/#solar-training"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Solar PV Training
@@ -147,30 +148,30 @@ const Footer = () => {
                       </li>
 
                       <li>
-                        <a
-                          href="/pages/learning-guide.html"
+                        <Link
+                          to="/learning"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Learning Guide
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="/pages/system-packages.html"
+                        <Link
+                          to="/packages"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           System Packages
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="/pages/products.html"
+                        <Link
+                          to="/products"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Products
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -180,21 +181,21 @@ const Footer = () => {
 
                     <ul className="mt-6 space-y-4 text-sm">
                       <li>
-                        <a
-                          href="/pages/about.html"
+                        <Link
+                          to="/about"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           About
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a
-                          href="#contact"
+                        <Link
+                          to="/contact"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
