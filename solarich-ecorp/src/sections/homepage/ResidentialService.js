@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const ResidentialService = () => {
   return (
@@ -39,12 +40,12 @@ const ResidentialService = () => {
                 </p>
               </div>
               <div>
-                <a
-                  href="#getQuote"
+                <Link
+                  to="/contact"
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 custom-font-1 tracking-wide"
                 >
-                  Get a quote
+                  Inquire now
                   <svg
                     className="inline-block w-3 mt-0.5 ml-2"
                     fill="currentColor"
@@ -52,7 +53,7 @@ const ResidentialService = () => {
                   >
                     <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="flex items-center justify-center -mx-4 lg:pl-8">
