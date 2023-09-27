@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 import { Carousel, initTE } from "tw-elements";
 
@@ -42,8 +43,8 @@ const TrainingSection = () => {
                 </p>
               </div>
               <div>
-                <a
-                  href="#getQuote"
+                <Link
+                  to="/contact"
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 custom-font-1 tracking-wide"
                 >
@@ -55,7 +56,7 @@ const TrainingSection = () => {
                   >
                     <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             {/* insert carousel */}
