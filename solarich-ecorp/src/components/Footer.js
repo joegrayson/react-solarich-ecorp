@@ -121,33 +121,6 @@ const Footer = () => {
 
                     <ul className="mt-6 space-y-4 text-sm">
                       <li>
-                        <a
-                          href="/#residential"
-                          className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
-                        >
-                          Residential Services
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          href="/#commercial"
-                          className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
-                        >
-                          Commercial Services
-                        </a>
-                      </li>
-
-                      <li>
-                        <a
-                          href="/#solar-training"
-                          className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"
-                        >
-                          Solar PV Training
-                        </a>
-                      </li>
-
-                      <li>
                         <Link
                           to="/learning"
                           className="text-gray-700 transition hover:opacity-75 hover:underline underline-offset-4"

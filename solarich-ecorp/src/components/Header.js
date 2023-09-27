@@ -89,33 +89,6 @@ const Header = () => {
                   </Link>
                 </li>
 
-                <li>
-                  <a
-                    className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/#residential"
-                  >
-                    Residential
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/#commercial"
-                  >
-                    Commercial
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400"
-                    href="/#solar-training"
-                  >
-                    Solar PV Training
-                  </a>
-                </li>
-
                 <li className="nav-link">
                   <span className="px-1 py-1 text-md font-medium transition duration-300 nav-link tracking-wider custom-font-2 hover:text-green-400">
                     Solar Solutions
@@ -202,24 +175,6 @@ const Header = () => {
                         >
                           Home
                         </Link>
-                        <a
-                          href="/#residential"
-                          className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
-                        >
-                          Residential
-                        </a>
-                        <a
-                          href="/#commercial"
-                          className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
-                        >
-                          Commercial
-                        </a>
-                        <a
-                          href="/#solar-training"
-                          className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
-                        >
-                          Solar PV Training
-                        </a>
                         <Link
                           to="/learning"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
