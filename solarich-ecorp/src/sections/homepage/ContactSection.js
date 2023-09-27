@@ -146,6 +146,7 @@ const ContactSection = () => {
                         <button
                           type="submit"
                           className="focus:shadow-outline focus:outline-none w-full py-3 mt-6 text-lg transform focus:ring focus:ring-blue-400 focus:ring-opacity-50 inline-flex items-center justify-center h-12 px-6 font-medium tracking-widest text-white transition duration-200 rounded shadow-md bg-green-500 hover:opacity-75 focus:shadow-outline custom-font-2 capitalize"
+                          disabled
                         >
                           Send a message
                         </button>
