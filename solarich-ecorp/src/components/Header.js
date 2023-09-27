@@ -196,60 +196,60 @@ const Header = () => {
                   <div className="mt-6 flow-root">
                     <div className="-my-6 divide-y divide-gray-500/10">
                       <div className="space-y-2 py-6">
-                        <a
-                          href="https://solarichenterprises.netlify.app/"
+                        <Link
+                          to="/"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Home
-                        </a>
+                        </Link>
                         <a
-                          href="https://solarichenterprises.netlify.app/#residential"
+                          href="/#residential"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Residential
                         </a>
                         <a
-                          href="https://solarichenterprises.netlify.app/#commercial"
+                          href="/#commercial"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Commercial
                         </a>
                         <a
-                          href="https://solarichenterprises.netlify.app/#solar-training"
+                          href="/#solar-training"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Solar PV Training
                         </a>
-                        <a
-                          href="/pages/learning-guide.html"
+                        <Link
+                          to="/learning"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Learning Guide
-                        </a>
-                        <a
-                          href="/pages/system-packages.html"
+                        </Link>
+                        <Link
+                          to="/packages"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           System Packages
-                        </a>
-                        <a
-                          href="/pages/products.html"
+                        </Link>
+                        <Link
+                          to="/products"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Products
-                        </a>
-                        <a
-                          href="/pages/about.html"
+                        </Link>
+                        <Link
+                          to="/about"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           About
-                        </a>
-                        <a
-                          href="https://solarichenterprises.netlify.app/#contact"
+                        </Link>
+                        <Link
+                          to="/contact"
                           className="-mx-3 text-sm font-semibold leading-6 text-center text-gray-900 block px-4 py-2 hover:bg-gray-100"
                         >
                           Contact
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
