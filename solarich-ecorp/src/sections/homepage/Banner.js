@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import "../../App.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -74,12 +75,12 @@ const Banner = () => {
                         </p>
                       </div>
                       <div>
-                        <a
-                          href="#getQuote"
+                        <Link
+                          to="/contact"
                           className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-widest text-white transition duration-200 rounded shadow-md bg-green-500 hover:bg-green-700 capitalize focus:shadow-outline focus:outline-none custom-font-2 fade-in-up"
                         >
-                          Get a quote
-                        </a>
+                          Inquire now
+                        </Link>
                       </div>
                     </div>
                   </div>
