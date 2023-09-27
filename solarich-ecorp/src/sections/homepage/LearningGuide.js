@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const LearningGuide = () => {
   return (
@@ -13,8 +14,8 @@ const LearningGuide = () => {
                 covered!
               </h2>
               <div>
-                <a
-                  href="/pages/learning-guide.html"
+                <Link
+                  to="/learning"
                   aria-label=""
                   className="inline-flex items-center font-semibold transition-colors duration-200 text-green-800 hover:text-green-500 custom-font-1 tracking-wide"
                 >
@@ -26,7 +27,7 @@ const LearningGuide = () => {
                   >
                     <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/2 -mb-4">
@@ -34,12 +35,12 @@ const LearningGuide = () => {
                 At Solarich Enterprises Corp, we're dedicated to supporting both
                 beginners and enthusiasts as they embark on their exciting path
                 towards clean energy. Our comprehensive{" "}
-                <a
-                  href="/pages/learning-guide.html"
+                <Link
+                  to="/learning"
                   className="underline underline-offset-4 hover:text-green-500 transition-colors duration-200"
                 >
                   Learning Guide
-                </a>{" "}
+                </Link>{" "}
                 on Solar PV Systems is designed to provide you with all the
                 essential knowledge and insights you need to understand the
                 world of solar energy. Whether you're curious about grid-tied,
