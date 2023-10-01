@@ -194,9 +194,7 @@
         transition: background-color 0.3s ease;
       }
     </style>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!-- Back to Top Button -->
 
     <button
       onclick="backToTop()"
@@ -220,7 +218,6 @@
       </svg>
     </button>
 
-    <!-- Scroll To Top Button Function -->
     <script>
       const backToTopBtn = document.getElementById("backToTopBtn");
 
@@ -248,12 +245,11 @@
       backToTopBtn.addEventListener("click", backToTop);
     </script>
 
-    <!-- Active Navigation Link Underline Effect -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const observerOptions = {
           rootMargin: "0px",
-          threshold: 0.6, // Adjust this threshold based on your needs
+          threshold: 0.6,
         };
 
         const observer = new IntersectionObserver((entries, observer) => {
@@ -269,7 +265,6 @@
           });
         }, observerOptions);
 
-        // Select all the sections with the class "scroll-section"
         const sections = document.querySelectorAll(".scroll-section");
 
         sections.forEach((section) => {
@@ -278,8 +273,7 @@
       });
     </script>
 
-    <!-- Mobile Menu Button -->
-    <script>
+    <!-- <script>
       const menuToggle = document.getElementById("menu-toggle");
       menuToggle.addEventListener("click", () => {
         document.getElementById("menu").classList.toggle("hidden");
@@ -289,7 +283,8 @@
       closeMenu.addEventListener("click", () => {
         document.getElementById("menu").classList.toggle("hidden");
       });
-    </script>
+    </script> -->
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       defer
